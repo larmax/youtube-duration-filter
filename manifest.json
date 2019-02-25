@@ -1,0 +1,12 @@
+{
+  "name": "Youtube duration filter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "limit sub box video length",
+
+  "browser_action": {
+
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+}
